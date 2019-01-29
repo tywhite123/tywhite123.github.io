@@ -28,8 +28,12 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+h2{
+    font-size:1.5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
 p {
-    font-size: 1.5em;
+    font-size: 1.25em;
     line-height: 1.4em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #333;
@@ -47,3 +51,8 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.post-meta{
+    font-size: 1.0em !important;
+}
+
