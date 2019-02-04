@@ -44,6 +44,7 @@ footer {
 }
 
 ul.posts { 
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
@@ -56,3 +57,7 @@ ul.posts li {
     font-size: 1.0em !important;
 }
 
+ul{
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1.1em;
+}
