@@ -7,8 +7,8 @@ date: 2019-05-16
 ## Info
 In this project I created an implementation of Atmospheric Scattering and Procedural Generation.
 
-The atmospheric scattering uses a fragment shader which calculates the colour of that fragment based on where the directional light is position in the sky
-Since this is in the shader it is recalculated each frame to display so when the light direction is changed so does the sky
+The atmospheric scattering uses a fragment shader which calculates the colour of that fragment based on where the directional light is position in the sky.
+Since this is in the shader it is recalculated each frame to display so when the light direction is changed so does the sky.
 With it being a shader it also means all of these calculation are done on the GPU and can be done in real time.
 It has to be done on the GPU since it needs to work on each individual pixel of fragment.
 
